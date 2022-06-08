@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>links</title>
+	<style type="text/css">
+		.lnk{
+			width: 150px;
+			height: 60px;
+			font-size: 30px;
+			color: hotpink;
+			border: double 5px blueviolet;
+			background-color: pink;
+		}
+		.lnk:hover{
+			background-color: violet;
+			color: white;
+			font-size: 50px;
+		}
+		table{
+			border: double 3px hotpink;
+			width: 500px;
+			border-collapse: separate;
+		}
+		th,td{
+			border: solid 1px black;
+			height: 0.7cm;
+			width: 120px;
+		}
+		tr:nth-child(even){
+			background-color: pink;
+		}
+		tr:hover{
+			background-color: gold;
+		}
+		td:hover{
+			font-size: 1.5cm;
+			color: gold;
+			background-color: silver;
+		}
+		caption{
+			font-size: 40px;
+			color: hotpink;
+			font-family: 'Inconsolata', monospace;
+		}
+		.myButton{
+			width: 150px;
+			height: 60px;
+			background-color: white;
+			color: #4774D4;
+			border-radius: 20px;
+			box-shadow: 5px 5px 2px 1px #CAD2F5;
+			margin-right: 10px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.myButton:hover{
+			background-color: #4774D4;
+			color: white;
+		}
+		.btn{
+			width: 150px;
+			height: 60px;
+			background: linear-gradient(to bottom, darkblue, skyblue, blueviolet);
+			font-size: 30px;
+			color: black;
+			border-radius: 10px;
+		}
+		.btn:hover{
+			background: linear-gradient(to bottom, hotpink, orange, blueviolet);
+			color: black;
+			font-size: 35px;
+		}
+	</style>
+</head>
+<body>
+<p style="color: blueviolet; font-size: 50px;" id="up">Ми вивчаємо посилання</p>
+<a href="https://htmlcolorcodes.com/">HTML colors</a>
+<a href="https://htmlcolorcodes.com/" target="_blank">HTML colors</a>
+<a href="https://htmlcolorcodes.com/" target="_blank"><img src="https://html.com/wp-content/uploads/html-color.png" width="200"></a>
+<button class="lnk">link</button>
+<a href="https://htmlcolorcodes.com/" target="_blank"><button class="lnk">HTML</button></a>
+<a href="https://www.bestcssbuttongenerator.com/" target="_blank"><button class="myButton">Generator</button></a>
+<a href="https://css3buttongenerator.com/" target="_blank"><button class="btn">Buttons</button></a>
+<table>
+	<caption>Таблиця кольорів HTML</caption>
+	<thead>
+		<tr><th>Color</th><th>Name</th><th>NEX</th><th>RGB</th></tr>
+	</thead>
+	<tbody>
+		<tr><td style="background-color: red;"></td><td>Red</td><td>#ff0000</td><td>(255,0,0)</td></tr>
+		<tr><td style="background-color: orange;"></td><td>Orange</td><td>#FFA500</td><td>(255,165,0)</td></tr>
+		<tr><td style="background-color: yellow;"></td><td>Yellow</td><td>#ffff00</td><td>(255,255,0)</td></tr>
+		<tr><td style="background-color: green;"></td><td>Green</td><td>#00ff00</td><td>(0,255,0)</td></tr>
+		<tr><td style="background-color: skyblue;"></td><td>Skyblue</td><td>#87CEEB</td><td>(135,206,235)</td></tr>
+		<tr><td style="background-color: darkblue;"></td><td>Darkblue</td><td>#00008B</td><td>(0,0,139)</td></tr>
+		<tr><td style="background-color: purple;"></td><td>Purple</td><td>#800080</td><td>(128,0,128)</td></tr>
+		<tr><td style="background-color: mediumslateblue;"></td><td>MediumSlateBlue</td><td>#7B68EE</td><td>(123,104,238)</td></tr>
+		<tr><td style="background-color: mediumvioletred;"></td><td>MediumVioletRed</td><td>#C71585</td><td>(199,21,133)</td></tr>
+		<tr><td style="background-color: darkorange;"></td><td>DarkOrange</td><td>#FF8C00</td><td>(255,140,0)</td></tr>
+		<tr><td style="background-color: limegreen;"></td><td>LimeGreen</td><td>#32CD32</td><td>(50,205,50)</td></tr>
+		<tr><td style="background-color: gold;"></td><td>Gold</td><td>#FFD700</td><td>(255,215,0)</td></tr>
+		<tr><td style="background-color: hotpink;"></td><td>HotPink</td><td>#FF69B4</td><td>(255,105,180)</td></tr>
+		<tr><td style="background-color: steelblue;"></td><td>SteelBlue</td><td>#4682B4</td><td>(70,130,180)</td></tr>
+	</tbody>
+</table>
+<a href="#up"><img src="https://png.pngtree.com/element_our/png_detail/20180904/up-arrow-icon-design-vector-png_75777.jpg" width="150px" style="margin-top: 20px;"></a>
+</body>
+</html>

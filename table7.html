@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>table</title>
+	<style type="text/css">
+		table{
+			border: double 3px hotpink;
+			width: 500px;
+			border-collapse: separate;
+		}
+		th,td{
+			border: solid 1px black;
+			height: 0.7cm;
+			width: 120px;
+		}
+		tr:nth-child(even){
+			background-color: pink;
+		}
+		tr:hover{
+			background-color: gold;
+		}
+		td:hover{
+			font-size: 1.5cm;
+			color: gold;
+			background-color: silver;
+		}
+		caption{
+			font-size: 40px;
+			color: hotpink;
+			font-family: 'Inconsolata', monospace;
+		}
+	</style>
+</head>
+<body>
+<p style="color: purple; font-size: 30px;">Ми вивчаємо таблиці</p>
+<table>
+	<caption>Таблиця кольорів HTML</caption>
+	<thead>
+		<tr><th>Color</th><th>Name</th><th>NEX</th><th>RGB</th></tr>
+	</thead>
+	<tbody>
+		<tr><td style="background-color: red;"></td><td>Red</td><td>#ff0000</td><td>(255,0,0)</td></tr>
+		<tr><td style="background-color: orange;"></td><td>Orange</td><td>#FFA500</td><td>(255,165,0)</td></tr>
+		<tr><td style="background-color: yellow;"></td><td>Yellow</td><td>#ffff00</td><td>(255,255,0)</td></tr>
+		<tr><td style="background-color: green;"></td><td>Green</td><td>#00ff00</td><td>(0,255,0)</td></tr>
+		<tr><td style="background-color: skyblue;"></td><td>Skyblue</td><td>#87CEEB</td><td>(135,206,235)</td></tr>
+		<tr><td style="background-color: darkblue;"></td><td>Darkblue</td><td>#00008B</td><td>(0,0,139)</td></tr>
+		<tr><td style="background-color: purple;"></td><td>Purple</td><td>#800080</td><td>(128,0,128)</td></tr>
+	</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>If.else</title>
+</head>
+<body>
+<script type="text/javascript">
+	let date = prompt("Скільки годин в добі?", "");
+	if (date == "24"){
+		alert("Таак, це правильно! Молодець!");
+	} else {
+		alert("Нуу..ти майже вгадав. Нічого страшного!")
+	}
+
+	let login = prompt("Введіть Ваш логін", "");
+	if (login == "user") {
+		let password = prompt("Введіть Ваш пароль","");
+		if (password == "password") {
+			alert("Ласкаво просимо!");
+		} else if (password === null){
+			alert("Введення скасовано");
+		} else {
+			alert("Пароль не вірний");
+		}
+	} else if (login === null){
+		alert("Введення скасовано");
+		} else {
+			alert("Пароль не вірний");
+	}
+
+let a= +prompt("Введіть число a", 0);
+let b= +prompt("Введіть число b", 0);
+let c= +prompt("Введіть число c", 0);
+
+let D = b * b - 4 * a * c;
+let x1=(- b + Math.sqrt(D)) /(2 * a);
+let x2=(- b - Math.sqrt(D)) /(2 * a);
+
+alert("D = " + D);
+if(D < 0)
+alert("Коренів немає");
+
+else if (D == 0)
+alert(x1)
+else if (D > 0)
+alert(x1+" "+x2)
+</script>
+</body>
+</html>
